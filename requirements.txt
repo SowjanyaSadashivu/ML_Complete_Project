@@ -1,0 +1,6 @@
+#requirements file
+
+pandas
+numpy
+seaborn
+-e .
