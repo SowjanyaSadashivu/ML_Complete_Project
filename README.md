@@ -7,6 +7,7 @@
 ##### conda activate venv/
 
 ### 3. Github commands
+'''
 ##### git init
 ##### git add
 ##### git commit -m "message"
@@ -16,8 +17,9 @@
 ##### git config --global user.name "username" 
 ##### git config --global user.email "email"
 ##### git push -u origin main
+'''
 
-### 4. add .gitignore file on github
+### 4. Add .gitignore file on github
 ### 5. Create src folder and build the package with setup.py and requirements.txt
 ##### The libraries mentioned in the requirements.txt will be downloaded automatically
 #####  Setup.py allows our ML application used as a package.
