@@ -36,5 +36,27 @@
 - Handle the EDA and Model Training process under project/notebook/data that holds dataset and all related python EDA code in ipynb file for reference in future.
 
 ### 9. Data Ingestion 
-- 
+- Read the data from any source, we have read it from csv file in this project
+- Split the data into train and test data.
+- We have split it in 80-20 ratio
+- save the split data in a artifact folder
+- artifacts has train, test and original raw data.
+- create the artifacts folder path -> makedir for the arifacts -> split the data into train and test -> save train, test and raw data into artifacts
+
+### 10. Data Transformation
+- Once the data is read from data ingestion we perform preprocessing in transformation.
+- There are two types of data: Numerical data and Categorical data.
+- We create numerical and categorical pipeline using ColumnTransformer.
+- We handle the missing value in numerical data using sklearn.impute, SimpleImputer.
+- we handle missing values in Categorical data using sklearn.preprocessing, OneHotEncoder 
+- Normalize the data using StandardScaler.
+
+### 11. Model Training
+- we import all the regressor models from sklearn
+- split the train and test data from the train_array and test_array we get from the data_transformation file.
+- we evaluate each model to find the best model.
+- evaluate_model() function is written in the utils.py file
+- we identify the best model by calculating the r2_score on each model.
+
+
 
