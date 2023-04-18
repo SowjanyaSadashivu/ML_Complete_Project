@@ -58,5 +58,7 @@
 - evaluate_model() function is written in the utils.py file
 - we identify the best model by calculating the r2_score on each model.
 
+### 12. create prediction pipeline
+- 
 
 
