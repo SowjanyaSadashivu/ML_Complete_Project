@@ -1,5 +1,7 @@
 ## This is a complete machine learning project
 
+##### Reference: https://www.youtube.com/watch?v=S_F_c9e2bz4&list=PLZoTAELRMXVPS-dOaVbAux22vzqdgoGhG 
+
 ### 1. Create a new environment
 ##### conda create -p venv python==3.8 -y
 

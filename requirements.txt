@@ -3,4 +3,8 @@
 pandas
 numpy
 seaborn
+matplotlib
+scikit-learn
+Catboost
+xgboost
 -e .
