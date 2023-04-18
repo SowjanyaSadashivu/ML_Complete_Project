@@ -32,3 +32,9 @@
 ### 7. Create exception.py and logger.py 
 - Handle the exception by writing the custom exceptions and log all those exception using logger.py file
 
+### 8. Create notebook folder 
+- Handle the EDA and Model Training process under project/notebook/data that holds dataset and all related python EDA code in ipynb file for reference in future.
+
+### 9. Data Ingestion 
+- 
+
