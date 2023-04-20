@@ -82,5 +82,12 @@
 ### 15. Create codepipeline on AWS
 - creating CI/CD pipeline usingh aws codepipeline.
 
-
+### 16. Deployment in MS Azure with github action
+- Create a resource on Azure.
+- create web app
+- create a resource group to out web app in it.
+- fill all fields.
+- enable github action, configure with github.
+- and create.
+- once the webapp is created workflow folder is created in github and action is visible.
 
