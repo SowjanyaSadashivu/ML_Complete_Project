@@ -59,6 +59,21 @@
 - we identify the best model by calculating the r2_score on each model.
 
 ### 12. create prediction pipeline
-- 
+- Automate the process of reading data from any source, load the model that works best for that kind of data, run the data through model and predict the value.
+- In this project we have used flask to build front end.
+- we are receving data from the webpage.
+- pass the data through prediction pipeline.
+- get the predicted output.
+- post the prediction on webpage.
+
+### 13. Deploy ML pipelines
+- Make few config changes.
+- we are using Elastic BeanStalk : AWS Elastic Beanstalk helps you deploy and manage web applications with capacity provisioning, app health monitoring, and more.
+- create .ebextentions : config file for AWS Elastic Beanstalk
+- - create python config file inside .ebextentions: python.config: to set up entry point of application.
+- - WSGIPath: application:application , application is the app.py name, that's the entry point for our application.
+
+
+
 
 
