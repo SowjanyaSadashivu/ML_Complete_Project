@@ -74,6 +74,13 @@
 - - WSGIPath: application:application , application is the app.py name, that's the entry point for our application.
 
 
+### 14. Creating an Application in aws elastic beanstalk
+- aws elastic beanstlk application, create application
+- fill all the fields
+-
+
+### 15. Create codepipeline on AWS
+- creating CI/CD pipeline usingh aws codepipeline.
 
 
 
