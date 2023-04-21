@@ -91,3 +91,12 @@
 - and create.
 - once the webapp is created workflow folder is created in github and action is visible.
 
+### 17. creating Docker image and pushing it to Docker hub
+- Create Docker file 
+- build the Docker file 
+- follow the link to create and build docker image
+- https://www.youtube.com/watch?v=8vmKtS8W7IQ 
+
+
+
+
